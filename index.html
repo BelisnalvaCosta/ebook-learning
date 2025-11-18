@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book – Lifelong Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===================== PÁGINA INICIAL ===================== -->
+    <section class="capa">
+        <div class="capa-left">
+            <h1 class="titulo">E-BOOK</h1>
+
+            <p class="intro-text">
+                <strong>Lifelong Learning:</strong> uma jornada de 
+                <span class="marker">aprendizado contínuo</span></br>
+                Plataformas modernas oferecem
+                <span class="marker">Bootcamps</span><br>
+                totalmente gratuitos graças a empresas renomadas.
+            </p>
+
+            <form class="formulario">
+                <input type="text" placeholder="Seu nome"> <!-- Nome do usuário (só inlustativo) p/ futuro projeto -->
+                <input type="email" placeholder="Seu e-mail"> <!-- E-mail do usuário (só inlustativo) p/ futuro projeto de ecommerce -->
+                <button type="button" onclick="abrirLivro()">Iniciar E-book</button>
+            </form>
+        </div>
+
+        <div class="capa-right">
+            <img src="imagens/lifelong-learning.png" alt="Lifelong Learning">
+        </div>
+    </section>
+
+    <!-- ===================== LIVRO ===================== -->
+    <section id="livro" class="livro hidden">
+
+        <!-- Página 1 -->
+        <div class="pagina">
+            <h2>Sobre o E-book</h2>
+            <p>
+                Este material apresenta os princípios do <strong>Lifelong Learning</strong>
+                e como construir uma rotina de aprendizado contínuo. Também explica o papel dos 
+                Bootcamps no desenvolvimento de habilidades práticas valorizadas pelo mercado atual.
+            </p>
+
+            <h3>Introdução</h3>
+            <p>
+                Aprender continuamente deixou de ser um diferencial e tornou-se uma necessidade real.
+                A tecnologia avança rapidamente, e somente quem se atualiza permanece relevante.  
+                Aqui você encontrará orientações para evoluir profissionalmente de forma estruturada.
+            </p>
+        </div>
+
+        <!-- Página 2 -->
+        <div class="pagina">
+            <h2>Lifelong Learning – Conceitos Essenciais</h2>
+
+            <p><strong>O que é?</strong><br>
+                Lifelong Learning é a prática de estudar continuamente ao longo da vida. Envolve disciplina,
+                curiosidade e adaptação constante às mudanças do mundo moderno.
+            </p>
+
+            <p><strong>Importância na Carreira</strong><br>
+                Profissionais que aprendem sempre ampliam oportunidades, mantêm-se relevantes e
+                conquistam qualificações que o mercado exige. 
+                <br>
+                Eu preciso estudar - AWS! Minha meta. 
+                <img src="imagens/Diagrama-AWS.png" width="250" height="130" alt="Diagrama AWS"> </p>
+        </div>
+
+        <!-- Página 3 -->
+        <div class="pagina">
+            <h2>Bootcamps</h2>
+            <p>
+                Bootcamps são programas intensivos focados em desenvolver habilidades técnicas
+                em pouco tempo. São práticos, gratuitos e apoiados por grandes empresas.
+            </p>
+            <p>Acesse e Inscreva-se:</p>
+            <a href="https://www.dio.me/bootcamp/bradesco-java-qa-developer?ref=F1LSL5WNG1"
+                target="_blank" class="btn">Acessar - Bootcamp Bradesco Java & QA Developer</a>
+            <br>
+            <a href="https://www.dio.me/bootcamp/nexa-fundamentos-de-ia-generativa-com-bedrock?ref=F1LSL5WNG1" target="_blank" class="btn">Acessar - Bootcamp Nexa</a>    
+            <br>            
+            <a href="https://www.dio.me/bootcamp/luizalabs-back-end-com-python?ref=F1LSL5WNG1" target="_blank" class="btn">Acessar - Bootcamp LuizaLabs Back-End Python</a>
+            <p>
+                Eles são ideais para quem deseja iniciar na área de tecnologia, migrar de carreira
+                ou reforçar competências específicas.
+            </p>
+        </div>
+
+        <!-- Página 4 -->
+        <div class="pagina">
+            <h2>Conclusão</h2>
+            <p>
+               O aprendizado contínuo é uma das competências mais valiosas do presente. Avançar no seu próprio ritmo, com constância e determinação, 
+               permite que o crescimento pessoal e profissional aconteça de forma natural e consistente. Cada passo, por menor que pareça, contribui para uma trajetória sólida de evolução.
+            <br></p>
+            <p>Agradeço pela leitura e pela disposição em refletir sobre a importância de estar sempre atualizado(a). Vivemos em um cenário altamente competitivo,
+                e compreender os impactos da Inteligência Artificial e de outras áreas da Tecnologia da Informação é um ponto de partida significativo para quem deseja se preparar para o futuro.
+                <br> 
+                Continue aprendendo, explorando e se desenvolvendo. O caminho do conhecimento é contínuo — e cada escolha em direção a ele já representa um avanço importante. 🌿</p>
+            <br>
+            <P>                
+                Fonte: 
+                Mariane Neiva (Estruturando o seu Portfólio para Decolar a sua Carreira!)<br>
+                Dio Campus Expert 14 - (DIO)</P>
+                <br>
+            <p>© 2025 — Desenvolvido por <strong>Belisnalva Costa</strong></p>
+        </div>
+
+        <!-- Navegação -->
+        <div class="navegacao">
+            <button id="btnAnterior" onclick="paginaAnterior()">Anterior</button>
+            <button id="btnProximo" onclick="proximaPagina()">Próximo</button>
+        </div>
+
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
