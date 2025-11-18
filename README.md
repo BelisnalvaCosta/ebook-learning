@@ -70,6 +70,6 @@ Reflexão final sobre atualização profissional constante
 
 ## 💡 Aprendizados do Projeto
 
-Este projeto demonstra como é possível transformar conteúdos educacionais em experiências interativas simples, utilizando apenas tecnologias front-end básicas. É ideal para:
+Este projeto demonstra como é possível transformar conteúdos educacionais em experiências interativas simples, utilizando apenas tecnologias front-end básicas.
 
 [^1]: Este E-Book faz parte de desafio de projetos do DIOCampusExpert 14 - Mariane Neiva (palestrante)
