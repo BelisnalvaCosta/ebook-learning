@@ -36,15 +36,6 @@ CSS3 — Estilização, responsividade e efeitos visuais
 
 JavaScript (vanilla) — Navegação entre as páginas e lógica do e-book
 
-📂 Estrutura de Arquivos
-/
-│── index.html
-│── styles.css
-│── script.js
-│── img/
-│     └── lifelong.png
-└── README.md
-
 🚀 Como Executar
 
 Clone o repositório:
@@ -78,13 +69,5 @@ Reflexão final sobre atualização profissional constante
 💡 Aprendizados do Projeto
 
 Este projeto demonstra como é possível transformar conteúdos educacionais em experiências interativas simples, utilizando apenas tecnologias front-end básicas. É ideal para:
-
-Estudos pessoais
-
-Demonstração de portfólio
-
-Exercícios de HTML, CSS e JavaScript
-
-Criação de conteúdos educacionais digitais
 
 [^1]: Este E-Book faz parte de desafio de projetos do DIOCampusExpert 14 - Mariane Neiva (palestrante)
